@@ -69,6 +69,6 @@ the design of your business card, e.g.:
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 .anim:hover {
-  box-shadow: inset 220px 0 0 0 #54b3d6;
+  box-shadow: inset 250px 0 0 0 #54b3d6;
   color: white;
 }
