@@ -1,0 +1,74 @@
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.avatar {
+    width: 150px;
+    
+}
+
+img {
+    /* border: 2px dashed #54b3d6;*/
+    animation: 1s ease-out 0s 1 slideInLeft;
+
+}
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #ff941d;
+    color: #293241;
+    border-top: 10px solid #54b3d6;
+    border-bottom: 10px solid #54b3d6;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+@keyframes slideInLeft {
+        0% {
+          transform: translateX(-100%);
+        }
+        100% {
+          transform: translateX(0);
+        }
+}
+.anim {
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #293241;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.anim:hover {
+  box-shadow: inset 220px 0 0 0 #54b3d6;
+  color: white;
+}
