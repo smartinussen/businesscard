@@ -55,7 +55,7 @@ the design of your business card, e.g.:
 */
 @keyframes slideInLeft {
         0% {
-          transform: translateX(-100%);
+          transform: translateX(-500%);
         }
         100% {
           transform: translateX(0);
